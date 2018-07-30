@@ -1,9 +1,9 @@
 {
   "name": "brain-games-s320",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "description": "Bash Game - Brain Games.",
   "bin": {
-     "brain-games": "dist/bin/brain-games.js"
+    "brain-games": "dist/bin/brain-games.js"
   },
   "files": [
     "dist"
@@ -31,5 +31,8 @@
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
     "babel-preset-stage-0": "^6.24.1"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.9"
   }
 }
