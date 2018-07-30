@@ -1,6 +1,6 @@
 {
   "name": "brain-games-s320",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Bash Game - Brain Games.",
   "bin": {
     "brain-games": "dist/bin/brain-games.js",
