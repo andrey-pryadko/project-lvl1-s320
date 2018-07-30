@@ -18,8 +18,8 @@ export const questionEvenOrNot = () => {
     if (correctAnswer === userAnswer) {
       console.log('Correct!');
     } else {
-      return (`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${name}`);
+      return (`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${name}!`);
     }
   }
-  return (`Congratulations, ${name}`);
+  return (`Congratulations, ${name}!`);
 };
