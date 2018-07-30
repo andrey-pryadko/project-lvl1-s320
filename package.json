@@ -1,0 +1,28 @@
+{
+  "name": "brain-games-s320",
+  "version": "1.0.0",
+  "description": "Bash Game - Brain Games.",
+  "main": "brain-games.js",
+  "scripts": {
+  "babel-node": "babel-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrey-pryadko/project-lvl1-s320.git"
+  },
+  "keywords": [
+    "bash-game"
+  ],
+  "author": "Andrey Pryadko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrey-pryadko/project-lvl1-s320/issues"
+  },
+  "homepage": "https://github.com/andrey-pryadko/project-lvl1-s320#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
