@@ -1,5 +1,5 @@
 <h1>Brain Games. Bash Game.</h1>
 <hr>
-<a href="https://codeclimate.com/github/codeclimate/codeclimate/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a>
-<a href="https://codeclimate.com/github/codeclimate/codeclimate/test_coverage"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/test_coverage" /></a>
-https://api.travis-ci.org/repos/andrey-pryadko/project-lvl1-s320/cc.xml
+[![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/test_coverage)](https://codeclimate.com/github/codeclimate/codeclimate/test_coverage)
+[![Build Status](https://travis-ci.org/andrey-pryadko/project-lvl1-s320.svg?branch=master)](https://travis-ci.org/andrey-pryadko/project-lvl1-s320)
