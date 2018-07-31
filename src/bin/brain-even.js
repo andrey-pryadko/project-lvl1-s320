@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import { questionEvenOrNot } from '..';
+import { playGameEvenOrNot } from '..';
 
-questionEvenOrNot();
+playGameEvenOrNot();
