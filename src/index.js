@@ -1,5 +1,9 @@
 import readlineSync from 'readline-sync';
 
+import {
+  cons, car, cdr,
+} from 'hexlet-pairs';
+
 export const greetByName = () => {
   console.log('Welcome to the Brain Games!');
   const name = readlineSync.question('May I have your name?: ');
@@ -34,10 +38,9 @@ export const gameCalc = () => {
   const name = readlineSync.question('May I have your name?: ');
   console.log(`Hello, ${name}!`);
   for (let i = 0; i < questionsCount; i += 1) {
-    const number1 = Math.floor(Math.random() * 100);
-    const number2 = Math.floor(Math.random() * 100);
-    const answer = readlineSync.question(`Question: ${number1} + ${number2}\nYour answer: `);
-    const correctAnswer = number1 + number2;
+    const question = cons(Math.floor(Math.random() * 100), Math.floor(Math.random() * 100));
+    const answer = readlineSync.question(`Question: ${car(question)} + ${cdr(question)}\nYour answer: `);
+    const correctAnswer = car(question) + cdr(question);
     if (correctAnswer === Number(answer)) {
       console.log('Correct!');
     } else {
