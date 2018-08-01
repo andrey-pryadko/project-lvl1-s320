@@ -4,28 +4,33 @@ import {
   cons, car, cdr,
 } from 'hexlet-pairs';
 
+import {
+  task, question, correctAnswer,
+} from './games/gameEven';
+
+const welcomeText = 'Welcome to the Brain Games!';
+const asknameText = 'May I have your name?: ';
+const questionsCount = 3;
+
 export const greetByName = () => {
-  console.log('Welcome to the Brain Games!');
-  const name = readlineSync.question('May I have your name?: ');
+  console.log(welcomeText);
+  const name = readlineSync.question(asknameText);
   console.log(`Hello, ${name}!`);
 };
 
-const isEven = number => (number % 2 === 0);
-const questionsCount = 3;
-
 export const gameEven = () => {
-  console.log('Welcome to the Brain Games!');
-  console.log('Answer "yes" if number even otherwise answer "no".');
-  const name = readlineSync.question('May I have your name?: ');
+  console.log(welcomeText);
+  console.log(task);
+  const name = readlineSync.question(asknameText);
   console.log(`Hello, ${name}!`);
   for (let i = 0; i < questionsCount; i += 1) {
-    const question = Math.floor(Math.random() * 100);
-    const answer = readlineSync.question(`Question: ${question}\nYour answer: `);
-    const correctAnswer = isEven(question) ? 'yes' : 'no';
-    if (correctAnswer === answer) {
+    const currentQuestion = question();
+    const currentcorrectAnswer = correctAnswer(currentQuestion);
+    const answer = readlineSync.question(`Question: ${currentQuestion}\nYour answer: `);
+    if (currentcorrectAnswer === answer) {
       console.log('Correct!');
     } else {
-      console.log(`'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${name}!`);
+      console.log(`'${answer}' is wrong answer ;(. Correct answer was '${currentcorrectAnswer}'.\nLet's try again, ${name}!`);
       return;
     }
   }
@@ -33,9 +38,9 @@ export const gameEven = () => {
 };
 
 export const gameCalc = () => {
-  console.log('Welcome to the Brain Games!');
+  console.log(welcomeText);
   console.log('What is the result of the expression?');
-  const name = readlineSync.question('May I have your name?: ');
+  const name = readlineSync.question(asknameText);
   console.log(`Hello, ${name}!`);
   for (let i = 0; i < questionsCount; i += 1) {
     const question = cons(Math.floor(Math.random() * 100), Math.floor(Math.random() * 100));
