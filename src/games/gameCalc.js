@@ -1,12 +1,14 @@
 import { cons } from 'hexlet-pairs';
+import generateRandomNumber from '../utils';
 import startGame from '..';
 
-const generateRandomNumber = () => Math.floor(Math.random() * 10);
 const taskGame = 'What is the result of the expression?';
+const minNumber = 1;
+const maxNumber = 10;
 
 const gameCalc = (i) => {
-  const number1 = generateRandomNumber();
-  const number2 = generateRandomNumber();
+  const number1 = generateRandomNumber(minNumber, maxNumber);
+  const number2 = generateRandomNumber(minNumber, maxNumber);
   switch (i) {
     case 0:
       return cons(`${number1} + ${number2}`, String(number1 + number2));
