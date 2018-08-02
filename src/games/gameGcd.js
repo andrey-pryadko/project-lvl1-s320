@@ -4,7 +4,7 @@ import startGame from '..';
 
 const taskGame = 'Find the greatest common divisor of given numbers.';
 const minNumber = 1;
-const maxNumber = 100;
+const maxNumber = 50;
 
 const getGcd = (number1, number2) => {
   if (number1 === number2) {

@@ -7,7 +7,7 @@ import {
 const questionsCount = 3;
 
 const startGame = (taskGame, makePairOfQuestionAndAnswer) => {
-  console.log('Welcome to the Brain Games!');
+  console.log('\nWelcome to the Brain Games!');
   console.log(`${taskGame}\n`);
   const name = readlineSync.question('May I have your name?: ');
   console.log(`Hello, ${name}!\n`);
