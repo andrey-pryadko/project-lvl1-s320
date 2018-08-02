@@ -12,11 +12,11 @@ const gameCalc = () => {
   const operandNumber = generateRandomNumber(1, 3);
   switch (operandNumber) {
     case 1:
-      return cons(`${number1} * ${number2}`, String(number1 + number2));
+      return cons(`${number1} * ${number2}`, String(number1 * number2));
     case 2:
       return cons(`${number1} - ${number2}`, String(number1 - number2));
     default:
-      return cons(`${number1} + ${number2}`, String(number1 * number2));
+      return cons(`${number1} + ${number2}`, String(number1 + number2));
   }
 };
 
