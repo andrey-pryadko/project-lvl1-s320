@@ -14,13 +14,13 @@ export const greetByName = () => {
   console.log(`Hello, ${name}!`);
 };
 
-const startGame = (taskGame, pairOfQuestionAndAnswer) => {
+const startGame = (taskGame, makePairOfQuestionAndAnswer) => {
   console.log(welcomeText);
   console.log(taskGame);
   const name = readlineSync.question(asknameText);
   console.log(`Hello, ${name}!`);
   for (let i = 0; i < questionsCount; i += 1) {
-    const currentQuestionAndAnswer = pairOfQuestionAndAnswer();
+    const currentQuestionAndAnswer = makePairOfQuestionAndAnswer(i);
     const currentQuestion = car(currentQuestionAndAnswer);
     const currentcorrectAnswer = cdr(currentQuestionAndAnswer);
     const answer = readlineSync.question(`Question: ${currentQuestion}\nYour answer: `);
