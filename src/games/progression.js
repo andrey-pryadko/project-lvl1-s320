@@ -7,21 +7,21 @@ const gameTask = 'What number is missing in this progression?';
 const gameProgression = () => {
   const progressionStartNumber = generateRandomNumber(1, 100);
   const d = generateRandomNumber(1, 10);
-  let result = '';
-  let sum = progressionStartNumber;
+  let progression = '';
+  let progressionCounter = progressionStartNumber;
   let correctAnswer = 0;
   const questionPosition = generateRandomNumber(0, 9);
   for (let i = 0; i < 10; i += 1) {
     if (i === questionPosition) {
-      sum += d;
-      result += '.. ';
-      correctAnswer = sum;
+      progressionCounter += d;
+      progression += '.. ';
+      correctAnswer = progressionCounter;
       i += 1;
     }
-    sum += d;
-    result += `${sum} `;
+    progressionCounter += d;
+    progression += `${progressionCounter} `;
   }
-  const pairOfQuestionAndAnswer = cons(result, String(correctAnswer));
+  const pairOfQuestionAndAnswer = cons(progression, String(correctAnswer));
   return pairOfQuestionAndAnswer;
 };
 
