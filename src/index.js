@@ -6,9 +6,9 @@ import {
 
 const questionsCount = 3;
 
-const startGame = (taskGame, makePairOfQuestionAndAnswer) => {
+const startGame = (gameTask, makePairOfQuestionAndAnswer) => {
   console.log('\nWelcome to the Brain Games!');
-  console.log(`${taskGame}\n`);
+  console.log(`${gameTask}\n`);
   const name = readlineSync.question('May I have your name?: ');
   console.log(`Hello, ${name}!\n`);
   for (let i = 0; i < questionsCount; i += 1) {

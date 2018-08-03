@@ -2,7 +2,7 @@ import { cons } from 'hexlet-pairs';
 import generateRandomNumber from '../utils';
 import startGame from '..';
 
-const taskGame = 'Find the greatest common divisor of given numbers.';
+const gameTask = 'Find the greatest common divisor of given numbers.';
 const minNumber = 1;
 const maxNumber = 50;
 
@@ -28,4 +28,4 @@ const gameGcd = () => {
   return pairOfQuestionAndAnswer;
 };
 
-export default () => startGame(taskGame, gameGcd);
+export default () => startGame(gameTask, gameGcd);

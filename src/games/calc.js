@@ -2,7 +2,7 @@ import { cons } from 'hexlet-pairs';
 import generateRandomNumber from '../utils';
 import startGame from '..';
 
-const taskGame = 'What is the result of the expression?';
+const gameTask = 'What is the result of the expression?';
 const minNumber = 1;
 const maxNumber = 10;
 
@@ -20,4 +20,4 @@ const gameCalc = () => {
   }
 };
 
-export default () => startGame(taskGame, gameCalc);
+export default () => startGame(gameTask, gameCalc);

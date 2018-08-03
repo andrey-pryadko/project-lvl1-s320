@@ -3,7 +3,7 @@ import generateRandomNumber from '../utils';
 import startGame from '..';
 
 const isEven = number => (number % 2 === 0);
-const taskGame = 'Answer "yes" if number even otherwise answer "no".';
+const gameTask = 'Answer "yes" if number even otherwise answer "no".';
 const minNumber = 1;
 const maxNumber = 100;
 
@@ -14,4 +14,4 @@ const gameEven = () => {
   return pairOfQuestionAndAnswer;
 };
 
-export default () => startGame(taskGame, gameEven);
+export default () => startGame(gameTask, gameEven);
