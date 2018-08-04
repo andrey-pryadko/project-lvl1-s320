@@ -5,21 +5,18 @@ import startGame from '..';
 const gameTask = 'What number is missing in this progression?';
 
 const gameProgression = () => {
-  const progressionStartNumber = generateRandomNumber(1, 100);
-  const d = generateRandomNumber(1, 10);
+  const startElement = generateRandomNumber(1, 100);
+  const step = generateRandomNumber(1, 10);
+  const progressionLength = 10;
   let progression = '';
-  let progressionCounter = progressionStartNumber;
-  let correctAnswer = 0;
-  const questionPosition = generateRandomNumber(0, 9);
-  for (let i = 0; i < 10; i += 1) {
+  const questionPosition = generateRandomNumber(0, progressionLength - 1);
+  const correctAnswer = startElement + step * questionPosition;
+  for (let i = 0; i < progressionLength; i += 1) {
     if (i === questionPosition) {
-      progressionCounter += d;
       progression += '.. ';
-      correctAnswer = progressionCounter;
       i += 1;
     }
-    progressionCounter += d;
-    progression += `${progressionCounter} `;
+    progression += `${startElement + step * i} `;
   }
   const pairOfQuestionAndAnswer = cons(progression, String(correctAnswer));
   return pairOfQuestionAndAnswer;
