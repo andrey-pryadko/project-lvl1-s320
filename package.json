@@ -1,7 +1,7 @@
 {
   "name": "brain-games-s320",
   "version": "0.9.1",
-  "description": "Bash Game - Brain Games.",
+  "description": "Brain Games. Small console games.",
   "bin": {
     "brain-games": "dist/bin/brain-games.js",
     "brain-even": "dist/bin/brain-even.js",
@@ -25,7 +25,8 @@
     "url": "git+https://github.com/andrey-pryadko/project-lvl1-s320.git"
   },
   "keywords": [
-    "bash-game"
+    "console-game",
+    "brain-games"
   ],
   "author": "Andrey Pryadko",
   "license": "ISC",
