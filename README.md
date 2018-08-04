@@ -11,14 +11,21 @@ should add npm version badge
 
 My first Back-end JavaScript project. There are 6 small console games. Enjoy;)
 
-table of contents with quick links
+#
 
 Installation
 
 ```sh
 $ npm install bain-games-s320
 ```
-How to play
+Games with quick links
+
+1. brain-calc
+2. brain-even
+3. brain-prime
+4. brain-gcd
+5. brain-balance
+6. brain-progression
 
 ```sh
 $ brain-calc
