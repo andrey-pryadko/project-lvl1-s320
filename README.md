@@ -6,7 +6,6 @@
 #
 
 ## Brain Games. [Hexlet](https://hexlet.io) study project.
-
 My first Back-end JavaScript project. There are 6 small console games. Enjoy;)
 #
 
