@@ -5,28 +5,28 @@
 [![Build Status](https://travis-ci.org/andrey-pryadko/project-lvl1-s320.svg?branch=master)](https://travis-ci.org/andrey-pryadko/project-lvl1-s320)
 #
 
-### Brain Games. [Hexlet](https://hexlet.io) study project.
+## Brain Games. [Hexlet](https://hexlet.io) study project.
 
 My first Back-end JavaScript project. There are 6 small console games. Enjoy;)
 #
 
-Installation
+### Installation
 
 ```sh
-$ npm install bain-games-s320
+$ npm install - g bain-games-s320
 ```
-Games with quick links
+### Choose the game:
 
-1. brain-calc
-2. brain-even
-3. brain-prime
-4. brain-gcd
-5. brain-balance
-6. brain-progression
+1. Calculator. (#calculator)
+2. Is even? (#is even)
+3. Is prime? (#is prime)
+4. Greater common divisor. (#greater)
+5. Balance the number. (#balance)
+6. Arithmetic progression. (#arithmetic)
 
 #
 
-1. brain-calc
+### 1. Calculator.
 
 description
 
@@ -39,7 +39,7 @@ $ brain-calc
 gifs
 
 
-2. brain-even
+### 2. Is even?
 
 description
 
@@ -52,7 +52,7 @@ $ brain-even
 gifs
 
 
-3. brain-prime
+### 3. Is prime?
 
 description
 
@@ -65,7 +65,7 @@ $ brain-prime
 gifs
 
 
-4. brain-gcd
+### 4. Greater common divisor.
 
 description
 
@@ -78,7 +78,7 @@ $ brain-gcd
 gifs
 
 
-5. brain-balance
+### 5. Balance.
 
 description
 
@@ -91,7 +91,7 @@ $ brain-balance
 gifs
 
 
-6. brain-progression
+### 6. Arithmetic progression.
 
 description
 
