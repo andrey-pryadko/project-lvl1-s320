@@ -13,7 +13,7 @@ My first Back-end JavaScript project. There are 6 small console games. Enjoy;)
 ### Installation
 
 ```sh
-$ npm install - g bain-games-s320
+$ npm install -g bain-games-s320
 ```
 ### Choose the game:
 
@@ -62,7 +62,7 @@ Run
 $ brain-prime
 ```
 
-gifs
+![screencast](gif/prime.gif)
 
 
 ### 4. Greater common divisor.
