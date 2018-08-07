@@ -16,12 +16,12 @@ $ npm install -g bain-games-s320
 ```
 ### Choose the game:
 
-1. Calculator. [### 1. Calculator.][]
-2. Is even? (#is even)
-3. Is prime? (#is prime)
-4. Greater common divisor. (#greater)
-5. Balance the number. (#balance)
-6. Arithmetic progression. (#arithmetic)
+1. Calculator.
+2. Is even?
+3. Is prime?
+4. Greater common divisor.
+5. Balance the number.
+6. Arithmetic progression.
 
 #
 
@@ -33,6 +33,7 @@ $ brain-calc
 
 ![screencast](./img/game-preview-calc.gif)
 
+#
 
 ### 2. Is even?
 
@@ -42,6 +43,7 @@ $ brain-even
 
 ![screencast](./img/game-preview-even.gif)
 
+#
 
 ### 3. Is prime?
 
@@ -51,6 +53,7 @@ $ brain-prime
 
 ![screencast](./img/game-preview-prime.gif)
 
+#
 
 ### 4. Greater common divisor.
 
@@ -60,6 +63,7 @@ $ brain-gcd
 
 ![screencast](./img/game-preview-gcd.gif)
 
+#
 
 ### 5. Balance.
 
@@ -69,6 +73,7 @@ $ brain-balance
 
 ![screencast](./img/game-preview-balance.gif)
 
+#
 
 ### 6. Arithmetic progression.
 
