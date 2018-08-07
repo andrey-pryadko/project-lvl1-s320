@@ -35,7 +35,7 @@ Run
 $ brain-calc
 ```
 
-gifs
+![screencast](./img/game-preview-calc.gif)
 
 
 ### 2. Is even?
@@ -48,7 +48,7 @@ Run
 $ brain-even
 ```
 
-gifs
+![screencast](./img/game-preview-even.gif)
 
 
 ### 3. Is prime?
@@ -61,7 +61,7 @@ Run
 $ brain-prime
 ```
 
-![screencast](gif/prime.gif)
+![screencast](./img/game-preview-prime.gif)
 
 
 ### 4. Greater common divisor.
@@ -74,7 +74,7 @@ Run
 $ brain-gcd
 ```
 
-gifs
+![screencast](./img/game-preview-gcd.gif)
 
 
 ### 5. Balance.
@@ -87,7 +87,7 @@ Run
 $ brain-balance
 ```
 
-gifs
+![screencast](./img/game-preview-balance.gif)
 
 
 ### 6. Arithmetic progression.
@@ -99,4 +99,4 @@ Run
 ```sh
 $ brain-progression
 ```
-gifs
+![screencast](./img/game-preview-progression.gif)
