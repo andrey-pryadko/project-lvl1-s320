@@ -1,3 +1,5 @@
 /node_modules/
 /dist/
 *.log
+brain-games.code-workspace
+.DS_Store
